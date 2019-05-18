@@ -1,0 +1,198 @@
+body {
+    direction: rtl;
+    background-color: #e8e9e9;
+}
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+#banner{
+    margin-top: 35px;
+    background-image:url(../images/Untitled-2.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.title {
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+    position: relative;
+    bottom: 240px;
+}
+.title h1, h2 {
+    padding: 7px;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 40pt;
+}
+.title h2{
+    font-size: 25pt;
+}
+.relative{
+    position: relative;
+}
+#secondRow {
+    background-color: white;
+    height: 343px;
+    position: absolute;
+   top: -113px;
+}
+iframe {
+    position: relative;
+    bottom: 113px;
+    float: left;
+  
+}
+.secondInfo h2 {
+    color: #33b192;
+    font-size: 20pt;
+    padding: 45px 50px;
+}
+.secondInfo {
+    float: right;
+    width: 550px;
+
+}
+    .secondInfo p {
+        line-height: 1.9;
+        padding-right: 30px;
+        font-size: 15pt;
+    }
+.clear {
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
+#thirdRow {
+    height: 340px;
+    background-color: #f6f6f6;
+    position: absolute;
+    top: -112px;
+    text-align: center;
+    width: 960px;
+    overflow: auto;
+}
+.underInfo {
+    display: inline-block;
+
+ 
+
+}
+    .underInfo h2 {
+        color: #008b89;
+        font-size: 14pt;
+        margin-bottom: 5px;
+    }
+    .underInfo ul li {
+        list-style: none;
+        padding: 10px;
+        font-weight: 400;
+        font-family: 'Rubik', sans-serif;
+    }
+.img {
+    height: 79px;
+    width: 65px;
+    padding: 15px 10px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 41px;
+}
+
+.design {
+    background-image: url(../images/design.png);
+    left: 243px;
+    top: 28px;
+}
+.designP{
+    position: relative;
+    left: 100px;
+}
+.program{
+    background-image:url(../images/program.jpg);
+    left: 18px;
+
+}
+.education{
+    background-image:url(../images/education.jpg);
+    right: 215px;
+}
+.eduP{
+    position: relative;
+    right:100px;
+}
+#classP a {
+    border-radius: 10px;
+    position: relative;
+    right: 360px;
+    top: 30px;
+    background-color: #008b89;
+    width: 200px;
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    transition: all 0.3s;
+}
+    #classP a:hover,a::after {
+        background-color: #5dddd3;
+        color: black;
+    }
+    #classP a:active {
+        background-color: aqua;
+    }
+#form {
+    position: absolute;
+    top: 228px;
+    background-color: #363636;
+    color: white;
+     width: 920px;
+     padding: 20px;
+}
+    #form h3 {
+        
+        padding-bottom: 10px;
+        font-size: 17pt;
+        font-family: 'Rubik', sans-serif;
+    }
+input[type=text] {
+    background-color: #b4b4b4;
+    width: 180px;
+    height: 10px;
+    padding: 13px;
+    margin: 3px 15px;
+    border: none;
+    color: black;
+
+}
+    input[type=text]:focus {
+        background-color: #e8e8e8;
+    }
+input[type=submit] {
+    background-color: #008b89;
+    color: white;
+    font-weight: bold;
+    padding: 8px 45px;
+    margin: 3px 10px;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    right: 40px;
+}
+    input[type=submit]:hover {
+        background-color: aqua;
+        color: white;
+    }
+footer {
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    line-height: 1.6;
+   position: relative;
+   top: 400px;
+   
+}
